@@ -56,3 +56,13 @@ body {
     color: white;
     font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .calculator-grid {
+        grid-template-columns: repeat(4,70px);
+        grid-template-rows: minmax(120px, auto) repeat(5,100px);
+    }
+    
+    
+  }
